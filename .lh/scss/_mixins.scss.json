@@ -1,0 +1,26 @@
+{
+    "sourceFile": "scss/_mixins.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1653791640565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653791653314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,5 @@\n \r\n \r\n+body {\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653791670697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,3 @@\n-\r\n-\r\n body {\r\n-  \r\n-}\n\\ No newline at end of file\n+\theight: 100%;\r\n+}\r\n"
+                }
+            ],
+            "date": 1653791640565,
+            "name": "Commit-0",
+            "content": "\r\n\r\n"
+        }
+    ]
+}

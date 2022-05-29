@@ -1,0 +1,142 @@
+{
+    "sourceFile": "style/style.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 31,
+            "patches": [
+                {
+                    "date": 1653794738287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653794747620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n \r\n+@import _\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653794752757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n \r\n-@import _\n\\ No newline at end of file\n+@import \"_\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653794757886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n \r\n-@import \"_\"\n\\ No newline at end of file\n+@import \"_variables\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653794766856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n \r\n-@import \"_variables\";\n\\ No newline at end of file\n+@import \"_variables\";\r\n+@import \"_mixx\";\r\n"
+                },
+                {
+                    "date": 1653794786044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n \r\n-@import \"_variables\";\r\n-@import \"_mixx\";\r\n+@import \"./_variables\";\r\n+@import \"_mixins\";\r\n+\r\n"
+                },
+                {
+                    "date": 1653794797489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n \r\n @import \"./_variables\";\r\n-@import \"_mixins\";\r\n+@import \"./_mixins\";\r\n \r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1653794803544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \r\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n+@import \"\"\r\n \r\n-\r\n"
+                },
+                {
+                    "date": 1653794813103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \r\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n-@import \"\"\r\n+@import \"./header.scss\"\r\n \r\n"
+                },
+                {
+                    "date": 1653794818753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n \r\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n+@import \"./header.scss\";\r\n @import \"./header.scss\"\r\n \r\n"
+                },
+                {
+                    "date": 1653794825479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n @import \"./header.scss\";\r\n-@import \"./header.scss\"\r\n+@import \"./fo.scss\";\r\n \r\n"
+                },
+                {
+                    "date": 1653794832275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,7 @@\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n @import \"./header.scss\";\r\n-@import \"./fo.scss\";\r\n+@import \"./footer.scss\";\r\n \r\n+\r\n"
+                },
+                {
+                    "date": 1653794869853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,8 @@\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n @import \"./header.scss\";\r\n+\r\n @import \"./footer.scss\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653794877537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n @import \"./header.scss\";\r\n-\r\n+@import \"\";\r\n @import \"./footer.scss\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653794883730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n @import \"./header.scss\";\r\n-@import \"\";\r\n+@import \"./in.scss\";\r\n @import \"./footer.scss\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653794889672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n @import \"./header.scss\";\r\n-@import \"./in.scss\";\r\n+@import \"./index\";\r\n @import \"./footer.scss\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653794897897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n \r\n @import \"./_variables\";\r\n @import \"./_mixins\";\r\n \r\n-@import \"./header.scss\";\r\n+@import \"./header\";\r\n @import \"./index\";\r\n-@import \"./footer.scss\";\r\n \r\n+@import \"./footer\";\r\n \r\n+\r\n"
+                },
+                {
+                    "date": 1653794903654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n @import \"./_mixins\";\r\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n-\r\n+@import \r\n @import \"./footer\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653794929502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n @import \"./_mixins\";\r\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n-@import \r\n+@import \"./authors\"\r\n @import \"./footer\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653794935058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n @import \"./_mixins\";\r\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n-@import \"./authors\"\r\n+@import \"./author\"\r\n @import \"./footer\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653796191316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n @import \"./_mixins\";\r\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n-@import \"./author\"\r\n+@import \"./author\";\r\n+\r\n @import \"./footer\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653796200108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n @import \"./author\";\r\n-\r\n+@import \"./news\";\r\n @import \"./footer\";\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1653796213647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n @import \"./_mixins\";\r\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n+\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796219639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n @import \"./_mixins\";\r\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n-\r\n+@import \"./404\";\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796230937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n @import \"./404\";\r\n+@import \"./footer\";\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796238617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n @import \"./404\";\r\n-@import \"./footer\";\r\n+@import \"./about_su\";\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796245064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n \r\n @import \"./header\";\r\n @import \"./index\";\r\n @import \"./404\";\r\n-@import \"./about_su\";\r\n+@import \"./about_us\";\r\n+@import \"./contact\";\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796259866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n @import \"./index\";\r\n @import \"./404\";\r\n @import \"./about_us\";\r\n @import \"./contact\";\r\n+@import \"./au\";\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796266054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n @import \"./index\";\r\n @import \"./404\";\r\n @import \"./about_us\";\r\n @import \"./contact\";\r\n-@import \"./au\";\r\n+@import \"./author_\";\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796274704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n @import \"./index\";\r\n @import \"./404\";\r\n @import \"./about_us\";\r\n @import \"./contact\";\r\n-@import \"./author_\";\r\n+@import \"./author_detail\";\r\n+\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796281680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,10 @@\n @import \"./404\";\r\n @import \"./about_us\";\r\n @import \"./contact\";\r\n @import \"./author_detail\";\r\n-@import \"./body_left\";\r\n+@import \"./body_left\"\r\n+;\r\n @import \"./author\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n"
+                },
+                {
+                    "date": 1653796393833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n @import \"./breadcrumb\";\r\n @import \"./featured\";\r\n @import \"./author\";\r\n @import \"./index\";\r\n-@import \"./product_de\";\r\n+@import \"./product_detail\";\r\n @import \"./news\";\r\n @import \"./footer\";\r\n \r\n \r\n"
+                }
+            ],
+            "date": 1653794738287,
+            "name": "Commit-0",
+            "content": "\r\n"
+        }
+    ]
+}
