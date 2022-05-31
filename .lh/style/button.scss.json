@@ -1,0 +1,26 @@
+{
+    "sourceFile": "style/button.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1653929419853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653929530559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .btn {\r\n-  line-h\r\n+  line-height: ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653929606249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .btn {\r\n   line-height: 38px;\r\n   font-size: 14px;\r\n-  padding 0 0px;\r\n+  padding 0 px;\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1653929419853,
+            "name": "Commit-0",
+            "content": "btn "
+        }
+    ]
+}

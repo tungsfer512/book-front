@@ -1,0 +1,46 @@
+{
+    "sourceFile": "style/reset.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1653903743097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653903750737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-bo\n\\ No newline at end of file\n+* {\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653903848469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n * {\r\n-  \r\n+  font\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653903855876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n * {\r\n-  font\r\n+  font-family: $font;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653903877436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n * {\r\n-  font-family: $font;\r\n+  font-family: $fontHeading;\r\n+  padding: 0;\r\n+  margin\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653903885217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n * {\r\n-  font-family: $fontHeading;\r\n-  padding: 0;\r\n-  margin\r\n-}\n\\ No newline at end of file\n+\tfont-family: $fontHeading;\r\n+\tpadding: 0;\r\n+\tmargin: 0;\r\n+  \r\n+}\r\n"
+                },
+                {
+                    "date": 1653903891019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n * {\r\n \tfont-family: $fontHeading;\r\n \tpadding: 0;\r\n \tmargin: 0;\r\n-  font-size: 62;\r\n+  font-size: 62.5;\r\n }\r\n"
+                },
+                {
+                    "date": 1653905281674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n   box-sizing: border-box;\r\n }\r\n \r\n a {\r\n-  text-dre\r\n+  text-decoration: ;\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1653903743097,
+            "name": "Commit-0",
+            "content": "bo"
+        }
+    ]
+}

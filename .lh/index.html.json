@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 24,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1653794476894,
@@ -104,6 +104,18 @@
                 {
                     "date": 1653797255106,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons+Rounded\" rel=\"stylesheet\">\r\n     <!-- IonIcons -->\r\n     <script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>\r\n     <script nomodule src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js\"></script>\r\n+    \r\n     <!-- Custom CSS -->\r\n     <link rel=\"stylesheet\" href=\"style/css/scroller.css\">\r\n     <link rel=\"stylesheet\" href=\"style/css/style.css\">\r\n   </head>\r\n"
+                },
+                {
+                    "date": 1653901112954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,8 @@\n     <link rel=\"stylesheet\" href=\"style/css/style.css\">\r\n   </head>\r\n \r\n   <body>\r\n-\r\n+    \r\n   </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653901120200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,8 @@\n     <link rel=\"stylesheet\" href=\"style/css/style.css\">\r\n   </head>\r\n \r\n   <body>\r\n-    header.header\r\n+    <header class=\"header\"></header>\r\n   </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653904092818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n   </head>\r\n \r\n   <body>\r\n     <header class=\"header\">\r\n-      <div class=\"header-top\"></div>\r\n+      <div class=\"header-top \"></div>\r\n       <div class=\"header-navbar\"></div>\r\n     </header>\r\n   </body>\r\n \r\n"
                 }
             ],
             "date": 1653794476894,

@@ -1,0 +1,30 @@
+{
+    "sourceFile": ".vscode/tasks.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1653926894147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653926899962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   // for the documentation about the tasks.json format\n   \"version\": \"2.0.0\",\n   \"tasks\": [\n     {\n-      \"label\": \"Run \",\n+      \"label\": \"Run watch \",\n       \"type\": \"shell\",\n       \"command\": \"echo Hello\"\n     }\n   ]\n"
+                },
+                {
+                    "date": 1653926906506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   // for the documentation about the tasks.json format\n   \"version\": \"2.0.0\",\n   \"tasks\": [\n     {\n-      \"label\": \"Run watch \",\n+      \"label\": \"Run --watch SASS\",\n       \"type\": \"shell\",\n       \"command\": \"echo Hello\"\n     }\n   ]\n"
+                },
+                {
+                    "date": 1653926921457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n   \"tasks\": [\n     {\n       \"label\": \"Run --watch SASS\",\n       \"type\": \"shell\",\n-      \"command\": \"echo Hello\"\n+      \"command\": \"sass style/style.scss style/css/style.css --watch\"\n     }\n   ]\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1653926894146,
+            "name": "Commit-0",
+            "content": "{\n  // See https://go.microsoft.com/fwlink/?LinkId=733558\n  // for the documentation about the tasks.json format\n  \"version\": \"2.0.0\",\n  \"tasks\": [\n    {\n      \"label\": \"Run \",\n      \"type\": \"shell\",\n      \"command\": \"echo Hello\"\n    }\n  ]\n}"
+        }
+    ]
+}

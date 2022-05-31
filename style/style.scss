@@ -2,6 +2,9 @@
 @import "./_variables";
 @import "./_mixins";
 
+@import "reset";
+@import "button";
+
 @import "./404";
 @import "./about_us";
 @import "./author_detail";
