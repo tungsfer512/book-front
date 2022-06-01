@@ -15,193 +15,150 @@
     <!-- GG Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded" rel="stylesheet">
     <!-- IonIcons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style/css/scroller.css">
     <link rel="stylesheet" href="style/css/style.css">
   </head>
 
   <body>
-    <header class="header">
-      <div class="header-top full-size-container">
-        <div class="header-top-img">
-          <img src="assets/images/logo.png" alt="Book Store Logo">
-        </div>
-        <div class="header-top-searchbox">
-          <div class="header-top-searchbox-contain">
-            <input type="text" placeholder="Search By Title, Author, Keywords,...">
-            <button type="submit" class="header-top-searchbox-btn">
-              <ion-icon name="search-outline"></ion-icon>
-            </button>
+    <header class="header"></header>
+    <div class="slider">
+      <div class="slider-container">
+        <div class="slider-container-item">
+          <div class="slider-container-item-img">
+            <img src="assets/images/slider-small-image1.png" alt="">
           </div>
-          <a href="advanced_search.html"> + Advanced Search</a>
-        </div>
-        <div class="header-top-list">
-          <div class="header-top-list-wishlist header-top-dropdown-trigger">
-            <div class="header-top-list-wishlist-content">
-              <span class="material-icons-outlined">
-                favorite_border
-              </span>
-              <div class="header-top-list-wishlist-content-number">3</div>
-              <span>Wishlist</span>
+          <div class="slider-container-item-content">
+            <div class="slider-container-item-content-heading">
+              <h1>
+                Search your favorite book
+              </h1>
             </div>
-            <div class="header-top-list-wishlist-dropdown">
-              <div class="header-top-list-wishlist-dropdown-product">
-                <a href="product_detail.html" class="header-top-list-wishlist-dropdown-product-item">
-                  <div class="header-top-list-wishlist-dropdown-product-item-img">
-                    <img src="assets/images/book1.jpg" alt="">
-                  </div>
-                  <div class="header-top-list-wishlist-dropdown-product-item-content">
-                    <div class="header-top-list-wishlist-dropdown-product-item-content-heading">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut saepe at earum consectetur
-                      id quibusdam, nulla aliquid doloremque non aperiam commodi quia, amet numquam possimus libero ipsa
-                      culpa ea.
-                    </div>
-                    <div class="header-top-list-wishlist-dropdown-product-item-content-body">
-                      <div class="header-top-list-wishlist-dropdown-product-item-content-body-price">$123.00</div>
-                    </div>
-                  </div>
-                </a>
-                <a href="product_detail.html" class="header-top-list-wishlist-dropdown-product-item">
-                  <div class="header-top-list-wishlist-dropdown-product-item-img">
-                    <img src="assets/images/book1.jpg" alt="">
-                  </div>
-                  <div class="header-top-list-wishlist-dropdown-product-item-content">
-                    <div class="header-top-list-wishlist-dropdown-product-item-content-heading">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut saepe at earum consectetur
-                      id quibusdam, nulla aliquid doloremque non aperiam commodi quia, amet numquam possimus libero ipsa
-                      culpa ea.
-                    </div>
-                    <div class="header-top-list-wishlist-dropdown-product-item-content-body">
-                      <div class="header-top-list-wishlist-dropdown-product-item-content-body-price">$123.00</div>
-                    </div>
-                  </div>
-                </a>
-                <a href="product_detail.html" class="header-top-list-wishlist-dropdown-product-item">
-                  <div class="header-top-list-wishlist-dropdown-product-item-img">
-                    <img src="assets/images/book1.jpg" alt="">
-                  </div>
-                  <div class="header-top-list-wishlist-dropdown-product-item-content">
-                    <div class="header-top-list-wishlist-dropdown-product-item-content-heading">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut saepe at earum consectetur
-                      id quibusdam, nulla aliquid doloremque non aperiam commodi quia, amet numquam possimus libero ipsa
-                      culpa ea.
-                    </div>
-                    <div class="header-top-list-wishlist-dropdown-product-item-content-body">
-                      <div class="header-top-list-wishlist-dropdown-product-item-content-body-price">$123.00</div>
-                    </div>
-                  </div>
-                </a>
+            <div class="slider-container-item-content-body">
+              <div class="slider-container-item-content-body-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rerum minus enim magnam molestiae labore, quaerat quasi aliquam veniam voluptatem ipsa tenetur dolor libero ipsam, reprehenderit eos quam laboriosam! Alias.
               </div>
-              <div class="header-top-list-wishlist-dropdown-separate"></div>
-              <div class="header-top-list-wishlist-dropdown-action">
-                <div class="header-top-list-wishlist-dropdown-action-delete">
-                  <span>
-                    <span class="material-icons-outlined header-top-list-wishlist-dropdown-action-delete-icon">
-                      delete
-                    </span>
-                    <span>Clear Your Wishlist</span>
-                  </span>
-                </div>
-                <div class="header-top-list-wishlist-dropdown-action-view">
-                  <a href="wishlist.html" class="btn btn-round-4 btn-primary">View wishlist</a>
-                  <div class="btn btn-round-4 btn-hover-primary" style="margin: 15px 10px;cursor: pointer;">Add All To
-                    Cart</div>
-                </div>
+              <div class="slider-container-item-content-body-button">
+                <a href="product_detail.html" class="btn btn-round-4 btn-hover-primary">Read more</a>
               </div>
             </div>
           </div>
-          <div class="header-top-list-cart header-top-dropdown-trigger">
-            <div class="header-top-list-cart-content">
-              <span class="material-icons-outlined">
-                shopping_cart
-              </span>
-              <div class="header-top-list-cart-content-number">3</div>
-              <span>$123.00</span>
+        </div>
+        <div class="slider-container-item">
+          <div class="slider-container-item-img">
+            <img src="assets/images/slider-small-image1.png" alt="">
+          </div>
+          <div class="slider-container-item-content">
+            <div class="slider-container-item-content-heading">
+              <h1>
+                Search your favorite book
+              </h1>
             </div>
-            <div class="header-top-list-cart-dropdown">
-              <div class="header-top-list-cart-dropdown-product">
-                <a href="product_detail.html" class="header-top-list-cart-dropdown-product-item">
-                  <div class="header-top-list-cart-dropdown-product-item-img">
-                    <img src="assets/images/book1.jpg" alt="">
-                  </div>
-                  <div class="header-top-list-cart-dropdown-product-item-content">
-                    <div class="header-top-list-cart-dropdown-product-item-content-heading">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut saepe at earum consectetur
-                      id quibusdam, nulla aliquid doloremque non aperiam commodi quia, amet numquam possimus libero ipsa
-                      culpa ea.
-                    </div>
-                    <div class="header-top-list-cart-dropdown-product-item-content-body">
-                      <div class="header-top-list-cart-dropdown-product-item-content-body-price">$123.00</div>
-                      <div class="header-top-list-cart-dropdown-product-item-content-body-quantity">x <span>3</span>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <a href="product_detail.html" class="header-top-list-cart-dropdown-product-item">
-                  <div class="header-top-list-cart-dropdown-product-item-img">
-                    <img src="assets/images/book1.jpg" alt="">
-                  </div>
-                  <div class="header-top-list-cart-dropdown-product-item-content">
-                    <div class="header-top-list-cart-dropdown-product-item-content-heading">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut saepe at earum consectetur
-                      id quibusdam, nulla aliquid doloremque non aperiam commodi quia, amet numquam possimus libero ipsa
-                      culpa ea.
-                    </div>
-                    <div class="header-top-list-cart-dropdown-product-item-content-body">
-                      <div class="header-top-list-cart-dropdown-product-item-content-body-price">$123.00</div>
-                      <div class="header-top-list-cart-dropdown-product-item-content-body-quantity">x <span>3</span>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <a href="product_detail.html" class="header-top-list-cart-dropdown-product-item">
-                  <div class="header-top-list-cart-dropdown-product-item-img">
-                    <img src="assets/images/book1.jpg" alt="">
-                  </div>
-                  <div class="header-top-list-cart-dropdown-product-item-content">
-                    <div class="header-top-list-cart-dropdown-product-item-content-heading">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, ut saepe at earum consectetur
-                      id quibusdam, nulla aliquid doloremque non aperiam commodi quia, amet numquam possimus libero ipsa
-                      culpa ea.
-                    </div>
-                    <div class="header-top-list-cart-dropdown-product-item-content-body">
-                      <div class="header-top-list-cart-dropdown-product-item-content-body-price">$123.00</div>
-                      <div class="header-top-list-cart-dropdown-product-item-content-body-quantity">x <span>3</span>
-                      </div>
-                    </div>
-                  </div>
-                </a>
+            <div class="slider-container-item-content-body">
+              <div class="slider-container-item-content-body-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi vitae suscipit totam illo tempora asperiores eligendi ipsa veritatis doloribus recusandae odit rem dolores, minima, vel, architecto accusamus aliquam eius? Delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis qui, velit quis nisi impedit ipsa quidem debitis assumenda dolore ducimus pariatur repudiandae sit error rerum nulla quos, quo, eius veniam?
               </div>
-              <div class="header-top-list-cart-dropdown-separate"></div>
-              <div class="header-top-list-cart-dropdown-action">
-                <div class="header-top-list-cart-dropdown-action-delete">
-                  <span>
-                    <span class="material-icons-outlined header-top-list-cart-dropdown-action-delete-icon">
-                      delete
-                    </span>
-                    <span>Clear Your Cart</span>
-                  </span>
-                  <span>
-                    <span>Subtotal:</span>
-                    <span>$123.00</span>
-                  </span>
-                </div>
-                <div class="header-top-list-cart-dropdown-action-view">
-                  <a href="cart.html" class="btn btn-round-4 btn-primary">View Cart</a>
-                  <a href="checkout.html" class="btn btn-round-4 btn-hover-primary">Checkout</a>
-                </div>
+              <div class="slider-container-item-content-body-button">
+                <a href="product_detail.html" class="btn btn-round-4 btn-hover-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-container-item">
+          <div class="slider-container-item-img">
+            <img src="assets/images/slider-small-image1.png" alt="">
+          </div>
+          <div class="slider-container-item-content">
+            <div class="slider-container-item-content-heading">
+              <h1>
+                Search your favorite book
+              </h1>
+            </div>
+            <div class="slider-container-item-content-body">
+              <div class="slider-container-item-content-body-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi vitae suscipit totam illo tempora asperiores eligendi ipsa veritatis doloribus recusandae odit rem dolores, minima, vel, architecto accusamus aliquam eius? Delectus?
+              </div>
+              <div class="slider-container-item-content-body-button">
+                <a href="product_detail.html" class="btn btn-round-4 btn-hover-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-container-item">
+          <div class="slider-container-item-img">
+            <img src="assets/images/slider-small-image1.png" alt="">
+          </div>
+          <div class="slider-container-item-content">
+            <div class="slider-container-item-content-heading">
+              <h1>
+                Search your favorite book
+              </h1>
+            </div>
+            <div class="slider-container-item-content-body">
+              <div class="slider-container-item-content-body-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi vitae suscipit totam illo tempora asperiores eligendi ipsa veritatis doloribus recusandae odit rem dolores, minima, vel, architecto accusamus aliquam eius? Delectus?
+              </div>
+              <div class="slider-container-item-content-body-button">
+                <a href="product_detail.html" class="btn btn-round-4 btn-hover-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-container-item">
+          <div class="slider-container-item-img">
+            <img src="assets/images/slider-small-image1.png" alt="">
+          </div>
+          <div class="slider-container-item-content">
+            <div class="slider-container-item-content-heading">
+              <h1>
+                Search your favorite book
+              </h1>
+            </div>
+            <div class="slider-container-item-content-body">
+              <div class="slider-container-item-content-body-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi vitae suscipit totam illo tempora asperiores eligendi ipsa veritatis doloribus recusandae odit rem dolores, minima, vel, architecto accusamus aliquam eius? Delectus?
+              </div>
+              <div class="slider-container-item-content-body-button">
+                <a href="product_detail.html" class="btn btn-round-4 btn-hover-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-container-item">
+          <div class="slider-container-item-img">
+            <img src="assets/images/slider-small-image1.png" alt="">
+          </div>
+          <div class="slider-container-item-content">
+            <div class="slider-container-item-content-heading">
+              <h1>
+                Search your favorite book
+              </h1>
+            </div>
+            <div class="slider-container-item-content-body">
+              <div class="slider-container-item-content-body-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi vitae suscipit totam illo tempora asperiores eligendi ipsa veritatis doloribus recusandae odit rem dolores, minima, vel, architecto accusamus aliquam eius? Delectus?
+              </div>
+              <div class="slider-container-item-content-body-button">
+                <a href="product_detail.html" class="btn btn-round-4 btn-hover-primary">Read more</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="header-navbar full-size-container"></div>
-    </header>
+    </div>
   </body>
 
 </html>
+<script>
+  $(".header").load("header.html");
+</script>
 <script src="js/header.js"></script>
+<script src="js/index.js"></script>

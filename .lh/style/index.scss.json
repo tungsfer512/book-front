@@ -1,0 +1,42 @@
+{
+    "sourceFile": "style/index.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1654007098316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654007105089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .slider {\r\n-  \r\n+  .\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654007110736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .slider {\r\n-  .\r\n+  &-con\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654007118925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .slider {\r\n-  &-con\r\n+  &-container {\r\n+    w100\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654007125847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .slider {\r\n   &-container {\r\n-    w100\r\n+    width: 100vw;\r\n+    height: 100vh;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654007142704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n .slider {\r\n   &-container {\r\n     width: 100vw;\r\n     height: 100vh;\r\n-    flex-cen\r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654007357303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       background-repeat: no-repeat;\r\n       position: relative;\r\n       &-img {\r\n         position: absolute;\r\n-        top: ;\r\n+        top: 3;\r\n         left: 0;\r\n         width: 100%;\r\n         height: 100%;\r\n         z-index: 1;\r\n"
+                }
+            ],
+            "date": 1654007098316,
+            "name": "Commit-0",
+            "content": ".slider {\r\n  \r\n}"
+        }
+    ]
+}

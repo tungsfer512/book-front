@@ -1,0 +1,34 @@
+{
+    "sourceFile": "js/header.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1653964414895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653964430333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +0,0 @@\n-  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653964436515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+document.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653964442491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-document.querySelectorAll\n\\ No newline at end of file\n+document.querySelectorA\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653964448930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-document.querySelector\"\"\n\\ No newline at end of file\n+document.querySelector\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1653964414895,
+            "name": "Commit-0",
+            "content": "  "
+        }
+    ]
+}
