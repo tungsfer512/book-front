@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1654009676976,
@@ -24,6 +24,10 @@
                 {
                     "date": 1654009727677,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     infinite: true,\r\n     speed: 500,\r\n     fade: true,\r\n     cssEase: 'linear',\r\n-    \r\n+    s\r\n   });\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654092301025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     arrows: true, \r\n     prevArrow: '<button type=\"button\" class=\"slick-prev\"><span class=\"material-icons\">arrow_back</span></button>',\r\n     nextArrow: '<button type=\"button\" class=\"slick-next\"><span class=\"material-icons\">arrow_forward</span></i></button>'\r\n   });\r\n-  $('.betse-container').slick({\r\n+  $('.betsell-container').slick({\r\n     slidesToShow: 1,\r\n     slidesToScroll: 1,\r\n     dots: false,\r\n     infinite: true,\r\n"
                 }
             ],
             "date": 1654009676975,

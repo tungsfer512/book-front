@@ -1,0 +1,11 @@
+@mixin transition-hidden-top($sec) {
+	transition: top $sec ease-in-out, opacity $sec ease-in-out,
+		visibility $sec ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+@mixin show-hidden-top($top) {
+	top: $top;
+	opacity: 1;
+	visibility: visible;
+}
