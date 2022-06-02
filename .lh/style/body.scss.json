@@ -1,0 +1,38 @@
+{
+    "sourceFile": "style/body.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1654158158450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654158165302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   justify-content: center;\r\n   align-items: center;\r\n   &-left {\r\n   padding: 0 15px;\r\n+  flex: 1;\r\n   }\r\n   &-right {\r\n     padding: 0 15px;\r\n   }\r\n"
+                },
+                {
+                    "date": 1654158171325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n   flex: 1;\r\n   }\r\n   &-right {\r\n     padding: 0 15px;\r\n+    flfex\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654158291591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,14 @@\n .body {\r\n-  display: flex;\r\n-  justify-content: center;\r\n-  align-items: center;\r\n-  &-left {\r\n-  padding: 0 15px;\r\n-  flex: 1;\r\n-  }\r\n-  &-right {\r\n-    padding: 0 15px;\r\n-    flfex\r\n-  }\r\n-}\n\\ No newline at end of file\n+\tdisplay: flex;\r\n+\tjustify-content: center;\r\n+\talign-items: center;\r\n+\t&-left {\r\n+\t\tpadding: 0 15px;\r\n+\t\tflex: 1;\r\n+    \r\n+\t}\r\n+\t&-right {\r\n+\t\tpadding: 0 15px;\r\n+\t\tflex: 2;\r\n+\t}\r\n+}\r\n"
+                },
+                {
+                    "date": 1654158312545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \talign-items: center;\r\n \t&-left {\r\n \t\tpadding: 0 15px;\r\n \t\tflex: 1;\r\n-    &-container\r\n+    &-container \r\n \t}\r\n \t&-right {\r\n \t\tpadding: 0 15px;\r\n \t\tflex: 2;\r\n"
+                },
+                {
+                    "date": 1654158495804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,11 @@\n         &-1 {\r\n           &-body {\r\n             &-item {\r\n               &-heading {\r\n-                \r\n+\r\n               }\r\n+              \r\n               select {\r\n                 width: 100%;\r\n                 height: 40px;\r\n                 border: 1px solid #e5e5e5;\r\n"
+                }
+            ],
+            "date": 1654158158450,
+            "name": "Commit-0",
+            "content": ".body {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  &-left {\r\n  padding: 0 15px;\r\n  }\r\n  &-right {\r\n    padding: 0 15px;\r\n  }\r\n}"
+        }
+    ]
+}

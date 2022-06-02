@@ -1,0 +1,46 @@
+{
+    "sourceFile": "style/breadcrumb.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1654137023890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654137030208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .breadcrumb {\r\n-  \r\n+  &-content {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654137038440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n .breadcrumb {\r\n+  back\r\n   &-content {\r\n-    \r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654137044110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .breadcrumb {\r\n-  back\r\n+  background-image: url(\"\");\r\n   &-content {\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1654137051174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .breadcrumb {\r\n-  background-image: url(\"\");\r\n+  background-image: url(\"../assets/images/breadcrumb_background.jpg\");\r\n   &-content {\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1654137066779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .breadcrumb {\r\n   background-image: url(\"../assets/images/breadcrumb_background.jpg\");\r\n+  \r\n   &-content {\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1654137073340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .breadcrumb {\r\n   background-image: url(\"../assets/images/breadcrumb_background.jpg\");\r\n   background-size: contain;\r\n-  \r\n+  background-repeat: no-repeat;\r\n   &-content {\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1654137730345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,8 @@\n     }\r\n     span {\r\n       font-size: 20px;\r\n       padding: 10px;\r\n-      background-color: $pri;\r\n+      background-color: $primaryColor;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1654137023890,
+            "name": "Commit-0",
+            "content": ".breadcrumb {\r\n  \r\n}"
+        }
+    ]
+}

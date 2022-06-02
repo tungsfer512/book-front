@@ -9,3 +9,11 @@
 	opacity: 1;
 	visibility: visible;
 }
+@mixin text-truncate($line) {
+	display: -webkit-box;
+	-webkit-line-clamp: $line;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-word;
+}
