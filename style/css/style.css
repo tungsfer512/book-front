@@ -1045,7 +1045,7 @@ ol, ul {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  background-image: url("/assets/images/slider-background1.jpg");
+  background-image: url("../../assets/images/slider-background1.jpg");
 }
 .slider-container-item-img {
   margin-top: 100px;
