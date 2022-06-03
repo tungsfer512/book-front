@@ -1,0 +1,26 @@
+{
+    "sourceFile": "js/cart.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1654254174969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654254181283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-$(window).load\n\\ No newline at end of file\n+$(window).load(function() {\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654254239483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n $(window).load(function() {\r\n-  $('.quantity span:first-child').click\r\n+  $('.quantity span:first-child').click()\r\n });\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1654254174969,
+            "name": "Commit-0",
+            "content": "$"
+        }
+    ]
+}

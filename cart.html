@@ -32,15 +32,146 @@
     <header class="header"></header>
     <div class="breadcrumb">
       <div class="breadcrumb-content">
-        <h1>Products You Want To Buy</h1>
+        <h1>Your Cart</h1>
         <span>Home > Cart</span>
       </div>
     </div>
     <div class="cart">
-      <div class="cart-container">
-        <div class="cart-container-table"></div>
-        <div class="cart-container-coupon"></div>
-        <div class="cart-container-checkout"></div>
+      <div class="cart-container full-size-container padding-top-bot-60">
+        <div class="cart-container-table">
+          <table>
+            <thead>
+              <th>#</th>
+              <th>Image</th>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+              <th></th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>
+                  <img src="assets/images/book01.jpg" alt="">
+                </td>
+                <td>
+                  <a href="product_detail.html">The Lord of the Rings</a>
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <div class="quantity">
+                    <span class="btn btn-round-4 btn-hover-primary">-</span>
+                    <input type="number" value="1" readonly min="1" max="10">
+                    <span class="btn btn-round-4 btn-hover-primary">+</span>
+                  </div>
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <ion-icon name="trash"></ion-icon>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>
+                  <img src="assets/images/book01.jpg" alt="">
+                </td>
+                <td>
+                  The Lord of the Rings
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <div class="quantity">
+                    <span class="btn btn-round-4 btn-hover-primary">-</span>
+                    <input type="number" value="1" readonly min="1" max="10">
+                    <span class="btn btn-round-4 btn-hover-primary">+</span>
+                  </div>
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <ion-icon name="trash"></ion-icon>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>
+                  <img src="assets/images/book01.jpg" alt="">
+                </td>
+                <td>
+                  The Lord of the Rings
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <div class="quantity">
+                    <span class="btn btn-round-4 btn-hover-primary">-</span>
+                    <input type="number" value="1" readonly min="1" max="10">
+                    <span class="btn btn-round-4 btn-hover-primary">+</span>
+                  </div>
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <ion-icon name="trash"></ion-icon>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>
+                  <img src="assets/images/book01.jpg" alt="">
+                </td>
+                <td>
+                  The Lord of the Rings
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <div class="quantity">
+                    <span class="btn btn-round-4 btn-hover-primary">-</span>
+                    <input type="number" value="1" readonly min="1" max="10">
+                    <span class="btn btn-round-4 btn-hover-primary">+</span>
+                  </div>
+                </td>
+                <td>$10.00</td>
+                <td>
+                  <ion-icon name="trash"></ion-icon>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="cart-container-bottom">
+          <div class="cart-container-bottom-coupon">
+            <div class="cart-container-bottom-coupon-title">
+              Coupon
+            </div>
+            <div class="cart-container-bottom-coupon-input">
+              <input type="text" placeholder="Enter your coupon code">
+              <button class="btn btn-round-4 btn-primary">Apply</button>
+            </div>
+          </div>
+
+          <div class="cart-container-bottom-checkout">
+            <div class="cart-container-bottom-checkout-subtotal">
+              <div class="cart-container-bottom-checkout-subtotal-title">
+                Subtotal
+              </div>
+              <div class="cart-container-bottom-checkout-subtotal-price">
+                $10.00
+              </div>
+            </div>
+            <div class="cart-container-bottom-checkout-total">
+              <div class="cart-container-bottom-checkout-total-title">
+                Total
+              </div>
+              <div class="cart-container-bottom-checkout-total-price">
+                $10.00
+              </div>
+            </div>
+            <div class="cart-container-bottom-checkout-button">
+              <button class="btn btn-round-4 btn-primary">Proceed To Checkout</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="footer"></footer>
@@ -55,3 +186,4 @@
   $(".footer").load("footer.html");
 </script>
 <script src="js/header.js"></script>
+<script src="js/quantity.js"></script>

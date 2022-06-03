@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1654226665028,
@@ -12,6 +12,30 @@
                 {
                     "date": 1654226729858,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .cart {\r\n-  \r\n+  .cart\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654251727286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .cart {\r\n-  .cart\r\n+  &-contani\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654251734203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .cart {\r\n-  &-contani\r\n+  &-container {\r\n+    &-\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654251745895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n .cart {\r\n   &-container {\r\n-    &-\r\n+    &-table {\r\n+      mar\r\n+    }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654251754377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .cart {\r\n   &-container {\r\n     &-table {\r\n-      mar\r\n+      \r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654251799368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .cart {\r\n   &-container {\r\n     &-table {\r\n-    \r\n+      \r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654251888975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n           thead {\r\n             background-color: $primaryColor;\r\n             th {\r\n               border: 1px solid $primaryBackground;\r\n-              font-size: 16;\r\n+              font-size: 16p;\r\n             }\r\n           }\r\n         }\r\n       }\r\n"
                 }
             ],
             "date": 1654226665028,

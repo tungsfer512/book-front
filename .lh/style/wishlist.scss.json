@@ -1,0 +1,62 @@
+{
+    "sourceFile": "style/wishlist.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1654262884965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654262892516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-.cart {\r\n+.wishlist {\r\n \t&-container {\r\n \t\t&-table {\r\n \t\t\tposition: relative;\r\n \t\t\twidth: 100%;\r\n"
+                },
+                {
+                    "date": 1654263028752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,61 +88,6 @@\n \t\t\t\t\t}\r\n \t\t\t\t}\r\n \t\t\t}\r\n \t\t}\r\n-\t\t&-bottom {\r\n-\t\t\tdisplay: flex;\r\n-\t\t\talign-items: center;\r\n-\t\t\tjustify-content: space-between;\r\n-\t\t\t&-coupon {\r\n-\t\t\t\t&-title {\r\n-\t\t\t\t\tfont-size: 20px;\r\n-\t\t\t\t\ttext-transform: uppercase;\r\n-\t\t\t\t\tfont-weight: 500;\r\n-          margin-bottom: 15px;\r\n-\t\t\t\t}\r\n-\t\t\t\t&-input {\r\n-\t\t\t\t\tdisplay: flex;\r\n-\t\t\t\t\tjustify-content: center;\r\n-\t\t\t\t\talign-items: center;\r\n-\t\t\t\t\tinput {\r\n-\t\t\t\t\t\tfont-size: 16px;\r\n-\t\t\t\t\t\tpadding: 10px;\r\n-\t\t\t\t\t\tborder-radius: 4px;\r\n-\t\t\t\t\t\toutline: none;\r\n-\t\t\t\t\t\tborder: 1px solid $textGray;\r\n-\t\t\t\t\t\tmargin-right: 20px;\r\n-\t\t\t\t\t}\r\n-\t\t\t\t\tbutton {\r\n-\t\t\t\t\t\tfont-size: 16px;\r\n-\t\t\t\t\t}\r\n-\t\t\t\t}\r\n-\t\t\t}\r\n-\t\t\t&-checkout {\r\n-        padding: 40px 60px;\r\n-        border-radius: 10px;\r\n-        background-color: $secondaryBackground;\r\n-\t\t\t\t&-subtotal,\r\n-\t\t\t\t&-total {\r\n-          margin-bottom: 15px;\r\n-          display: flex;\r\n-          justify-content: space-between;\r\n-          align-items: center;\r\n-          font-size: 16px;\r\n-          &-title {\r\n-            font-size: 16px;\r\n-            font-weight: 500;\r\n-          }\r\n-          &-price {\r\n-            font-size: 16px;\r\n-          }\r\n-\t\t\t\t}\r\n-        &-total {\r\n-          &-title, &-price {\r\n-            color: $textBlue;\r\n-            font-weight: 600;\r\n-          }\r\n-        }\r\n-\t\t\t}\r\n-\t\t}\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1654263040828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,29 +50,9 @@\n \t\t\t\t\t}\r\n \t\t\t\t\t&:nth-child(4) {\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t}\r\n-\t\t\t\t\t&:nth-child(5) {\r\n-\t\t\t\t\t\twidth: 15%;\r\n-\t\t\t\t\t\t.quantity {\r\n-\t\t\t\t\t\t\tdisplay: flex;\r\n-\t\t\t\t\t\t\tjustify-content: space-between;\r\n-\t\t\t\t\t\t\talign-items: center;\r\n-\t\t\t\t\t\t\tspan {\r\n-\t\t\t\t\t\t\t\tpadding: 10px;\r\n-\t\t\t\t\t\t\t\tcolor: $textBlack;\r\n-\t\t\t\t\t\t\t\tborder: 1px solid $textGray;\r\n-\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t\tinput {\r\n-\t\t\t\t\t\t\t\tborder: 1px solid $primaryBorderColor;\r\n-\t\t\t\t\t\t\t\toutline: none;\r\n-\t\t\t\t\t\t\t\tfont-size: 14px;\r\n-\t\t\t\t\t\t\t\tpadding: 10px;\r\n-\t\t\t\t\t\t\t\twidth: 55%;\r\n-\t\t\t\t\t\t\t\ttext-align: center;\r\n-\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t}\r\n+\r\n \t\t\t\t\t&:nth-child(6) {\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t}\r\n \t\t\t\t\t&:last-child {\r\n"
+                },
+                {
+                    "date": 1654263060837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,11 +51,8 @@\n \t\t\t\t\t&:nth-child(4) {\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t}\r\n \r\n-\t\t\t\t\t&:nth-child(6) {\r\n-\t\t\t\t\t\twidth: 15%;\r\n-\t\t\t\t\t}\r\n \t\t\t\t\t&:last-child {\r\n \t\t\t\t\t\ttext-align: center;\r\n \t\t\t\t\t\twidth: 5%;\r\n \t\t\t\t\t\tion-icon {\r\n"
+                },
+                {
+                    "date": 1654263096193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,17 +45,17 @@\n \t\t\t\t\t\t\tobject-fit: contain;\r\n \t\t\t\t\t\t}\r\n \t\t\t\t\t}\r\n \t\t\t\t\t&:nth-child(3) {\r\n-\t\t\t\t\t\twidth: 30%;\r\n+\t\t\t\t\t\twidth: 40%;\r\n \t\t\t\t\t}\r\n \t\t\t\t\t&:nth-child(4) {\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t}\r\n \r\n \t\t\t\t\t&:last-child {\r\n \t\t\t\t\t\ttext-align: center;\r\n-\t\t\t\t\t\twidth: 5%;\r\n+\t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t\tion-icon {\r\n \t\t\t\t\t\t\tfont-size: 24px;\r\n \t\t\t\t\t\t\t&:hover {\r\n \t\t\t\t\t\t\t\tcolor: $secondaryColor;\r\n"
+                },
+                {
+                    "date": 1654263109043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n \t\t\t\t\t}\r\n \r\n \t\t\t\t\t&:last-child {\r\n \t\t\t\t\t\ttext-align: center;\r\n-\t\t\t\t\t\twidth: 15%;\r\n+\t\t\t\t\t\twidth: 25%;\r\n \t\t\t\t\t\tion-icon {\r\n \t\t\t\t\t\t\tfont-size: 24px;\r\n \t\t\t\t\t\t\t&:hover {\r\n \t\t\t\t\t\t\t\tcolor: $secondaryColor;\r\n"
+                },
+                {
+                    "date": 1654263167063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n \t\t\t\t\t}\r\n \r\n \t\t\t\t\t&:last-child {\r\n \t\t\t\t\t\ttext-align: center;\r\n-\t\t\t\t\t\twidth: 25%;\r\n+\t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t\tion-icon {\r\n \t\t\t\t\t\t\tfont-size: 24px;\r\n \t\t\t\t\t\t\t&:hover {\r\n \t\t\t\t\t\t\t\tcolor: $secondaryColor;\r\n"
+                },
+                {
+                    "date": 1654263176096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \t\t\t\t\t\t\tobject-fit: contain;\r\n \t\t\t\t\t\t}\r\n \t\t\t\t\t}\r\n \t\t\t\t\t&:nth-child(3) {\r\n-\t\t\t\t\t\twidth: 40%;\r\n+\t\t\t\t\t\twidth: 50%;\r\n \t\t\t\t\t}\r\n \t\t\t\t\t&:nth-child(4) {\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t}\r\n"
+                },
+                {
+                    "date": 1654263201347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n \r\n \t\t\t\t\t&:last-child {\r\n \t\t\t\t\t\ttext-align: center;\r\n \t\t\t\t\t\twidth: 15%;\r\n-\t\t\t\t\t\tion-icon {\r\n+\t\t\t\t\t\tbutton {\r\n \t\t\t\t\t\t\tfont-size: 24px;\r\n \t\t\t\t\t\t\t&:hover {\r\n \t\t\t\t\t\t\t\tcolor: $secondaryColor;\r\n \t\t\t\t\t\t\t\tcursor: pointer;\r\n"
+                },
+                {
+                    "date": 1654263208488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,13 +55,9 @@\n \t\t\t\t\t&:last-child {\r\n \t\t\t\t\t\ttext-align: center;\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t\tbutton {\r\n-\t\t\t\t\t\t\tfont-size: 24px;\r\n-\t\t\t\t\t\t\t&:hover {\r\n-\t\t\t\t\t\t\t\tcolor: $secondaryColor;\r\n-\t\t\t\t\t\t\t\tcursor: pointer;\r\n-\t\t\t\t\t\t\t}\r\n+\t\t\t\t\t\t\tfont-size: 16px;\r\n \t\t\t\t\t\t}\r\n \t\t\t\t\t}\r\n \t\t\t\t}\r\n \t\t\t}\r\n"
+                },
+                {
+                    "date": 1654263229866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,11 +52,11 @@\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t}\r\n \r\n \t\t\t\t\t&:last-child {\r\n-\t\t\t\t\t\ttext-align: center;\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t\tbutton {\r\n+              w100p\r\n \t\t\t\t\t\t\tfont-size: 16px;\r\n \t\t\t\t\t\t}\r\n \t\t\t\t\t}\r\n \t\t\t\t}\r\n"
+                }
+            ],
+            "date": 1654262884965,
+            "name": "Commit-0",
+            "content": ".cart {\r\n\t&-container {\r\n\t\t&-table {\r\n\t\t\tposition: relative;\r\n\t\t\twidth: 100%;\r\n\t\t\theight: 500px;\r\n\t\t\toverflow: hidden scroll;\r\n\t\t\tmargin-bottom: 20px;\r\n\t\t\ttable {\r\n\t\t\t\twidth: 100%;\r\n\t\t\t\tthead {\r\n\t\t\t\t\tbackground-color: $primaryColor;\r\n\t\t\t\t\tth {\r\n\t\t\t\t\t\tcolor: $textWhite;\r\n\t\t\t\t\t\tfont-size: 14px;\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\ttbody {\r\n\t\t\t\t\t// display: inline-block;\r\n\t\t\t\t}\r\n\t\t\t\ttr {\r\n\t\t\t\t\t&:nth-child(even) {\r\n\t\t\t\t\t\tbackground-color: $secondaryBackground;\r\n\t\t\t\t\t}\r\n\t\t\t\t\t// display: block;\r\n\t\t\t\t}\r\n\t\t\t\tth,\r\n\t\t\t\ttd {\r\n\t\t\t\t\tborder: 1px solid $primaryBorderColor;\r\n\t\t\t\t\tfont-size: 16px;\r\n\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\ttext-align: left;\r\n\t\t\t\t\tpadding: 8px 10px;\r\n\t\t\t\t\ta {\r\n\t\t\t\t\t\tfont-size: 16px;\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&:nth-child(1) {\r\n\t\t\t\t\t\twidth: 10%;\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&:nth-child(2) {\r\n\t\t\t\t\t\tcolumns: 1;\r\n\t\t\t\t\t\twidth: 10%;\r\n\t\t\t\t\t\timg {\r\n\t\t\t\t\t\t\twidth: 100%;\r\n\t\t\t\t\t\t\tobject-fit: contain;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&:nth-child(3) {\r\n\t\t\t\t\t\twidth: 30%;\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&:nth-child(4) {\r\n\t\t\t\t\t\twidth: 15%;\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&:nth-child(5) {\r\n\t\t\t\t\t\twidth: 15%;\r\n\t\t\t\t\t\t.quantity {\r\n\t\t\t\t\t\t\tdisplay: flex;\r\n\t\t\t\t\t\t\tjustify-content: space-between;\r\n\t\t\t\t\t\t\talign-items: center;\r\n\t\t\t\t\t\t\tspan {\r\n\t\t\t\t\t\t\t\tpadding: 10px;\r\n\t\t\t\t\t\t\t\tcolor: $textBlack;\r\n\t\t\t\t\t\t\t\tborder: 1px solid $textGray;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\tinput {\r\n\t\t\t\t\t\t\t\tborder: 1px solid $primaryBorderColor;\r\n\t\t\t\t\t\t\t\toutline: none;\r\n\t\t\t\t\t\t\t\tfont-size: 14px;\r\n\t\t\t\t\t\t\t\tpadding: 10px;\r\n\t\t\t\t\t\t\t\twidth: 55%;\r\n\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&:nth-child(6) {\r\n\t\t\t\t\t\twidth: 15%;\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&:last-child {\r\n\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\twidth: 5%;\r\n\t\t\t\t\t\tion-icon {\r\n\t\t\t\t\t\t\tfont-size: 24px;\r\n\t\t\t\t\t\t\t&:hover {\r\n\t\t\t\t\t\t\t\tcolor: $secondaryColor;\r\n\t\t\t\t\t\t\t\tcursor: pointer;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t\t&-bottom {\r\n\t\t\tdisplay: flex;\r\n\t\t\talign-items: center;\r\n\t\t\tjustify-content: space-between;\r\n\t\t\t&-coupon {\r\n\t\t\t\t&-title {\r\n\t\t\t\t\tfont-size: 20px;\r\n\t\t\t\t\ttext-transform: uppercase;\r\n\t\t\t\t\tfont-weight: 500;\r\n          margin-bottom: 15px;\r\n\t\t\t\t}\r\n\t\t\t\t&-input {\r\n\t\t\t\t\tdisplay: flex;\r\n\t\t\t\t\tjustify-content: center;\r\n\t\t\t\t\talign-items: center;\r\n\t\t\t\t\tinput {\r\n\t\t\t\t\t\tfont-size: 16px;\r\n\t\t\t\t\t\tpadding: 10px;\r\n\t\t\t\t\t\tborder-radius: 4px;\r\n\t\t\t\t\t\toutline: none;\r\n\t\t\t\t\t\tborder: 1px solid $textGray;\r\n\t\t\t\t\t\tmargin-right: 20px;\r\n\t\t\t\t\t}\r\n\t\t\t\t\tbutton {\r\n\t\t\t\t\t\tfont-size: 16px;\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\t&-checkout {\r\n        padding: 40px 60px;\r\n        border-radius: 10px;\r\n        background-color: $secondaryBackground;\r\n\t\t\t\t&-subtotal,\r\n\t\t\t\t&-total {\r\n          margin-bottom: 15px;\r\n          display: flex;\r\n          justify-content: space-between;\r\n          align-items: center;\r\n          font-size: 16px;\r\n          &-title {\r\n            font-size: 16px;\r\n            font-weight: 500;\r\n          }\r\n          &-price {\r\n            font-size: 16px;\r\n          }\r\n\t\t\t\t}\r\n        &-total {\r\n          &-title, &-price {\r\n            color: $textBlue;\r\n            font-weight: 600;\r\n          }\r\n        }\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n"
+        }
+    ]
+}
