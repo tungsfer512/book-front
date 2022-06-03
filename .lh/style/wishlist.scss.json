@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1654262884965,
@@ -52,6 +52,10 @@
                 {
                     "date": 1654263229866,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,11 +52,11 @@\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t}\r\n \r\n \t\t\t\t\t&:last-child {\r\n-\t\t\t\t\t\ttext-align: center;\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t\tbutton {\r\n+              w100p\r\n \t\t\t\t\t\t\tfont-size: 16px;\r\n \t\t\t\t\t\t}\r\n \t\t\t\t\t}\r\n \t\t\t\t}\r\n"
+                },
+                {
+                    "date": 1654263621167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,11 +14,8 @@\n \t\t\t\t\t\tcolor: $textWhite;\r\n \t\t\t\t\t\tfont-size: 14px;\r\n \t\t\t\t\t}\r\n \t\t\t\t}\r\n-\t\t\t\ttbody {\r\n-\t\t\t\t\t// display: inline-block;\r\n-\t\t\t\t}\r\n \t\t\t\ttr {\r\n \t\t\t\t\t&:nth-child(even) {\r\n \t\t\t\t\t\tbackground-color: $secondaryBackground;\r\n \t\t\t\t\t}\r\n@@ -54,9 +51,9 @@\n \r\n \t\t\t\t\t&:last-child {\r\n \t\t\t\t\t\twidth: 15%;\r\n \t\t\t\t\t\tbutton {\r\n-              w100p\r\n+              width: 100%;\r\n \t\t\t\t\t\t\tfont-size: 16px;\r\n \t\t\t\t\t\t}\r\n \t\t\t\t\t}\r\n \t\t\t\t}\r\n"
                 }
             ],
             "date": 1654262884965,
