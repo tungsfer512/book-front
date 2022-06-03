@@ -1,0 +1,50 @@
+{
+    "sourceFile": "style/login.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1654222285145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654222291280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .login {\r\n-  \r\n+  &-container {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654222343714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n .login {\r\n   &-container {\r\n-    \r\n+    &-input {\r\n+      \r\n+    }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654222350543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .login {\r\n   &-container {\r\n     &-input {\r\n-      \r\n+      padding: \r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654222359504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .login {\r\n   &-container {\r\n     &-input {\r\n-      padding: \r\n+      padding: 20px;\r\n+      font-size: 14px;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654222443411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n .login {\r\n   &-container {\r\n     &-input {\r\n+      input {\r\n+        \r\n+      }\r\n       padding: 20px;\r\n       font-size: 14px;\r\n     }\r\n   }\r\n"
+                },
+                {
+                    "date": 1654222449190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n .login {\r\n   &-container {\r\n     &-input {\r\n+      \r\n       input {\r\n-        \r\n+        padding: 20px;\r\n+        font-size: 14px;\r\n       }\r\n-      padding: 20px;\r\n-      font-size: 14px;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654222455541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .login {\r\n   &-container {\r\n     &-input {\r\n-      ion-icon\r\n+      ion-icon \r\n       input {\r\n         padding: 20px;\r\n         font-size: 14px;\r\n       }\r\n"
+                },
+                {
+                    "date": 1654222509001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     &-input {\r\n       display: flex;\r\n       justify-content: center;\r\n       align-items: center;\r\n-      border: ;\r\n+      border: 1;\r\n       ion-icon {\r\n         font-size: 24px;\r\n       }\r\n       input {\r\n"
+                }
+            ],
+            "date": 1654222285145,
+            "name": "Commit-0",
+            "content": ".login {\r\n  \r\n}"
+        }
+    ]
+}

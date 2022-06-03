@@ -3,11 +3,43 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1653795073672,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654179901377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+.product-detail {\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654182131050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .product-detail {\r\n-  \r\n+  &-inbfo {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654182140263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n .product-detail {\r\n-  &-inbfo {\r\n-    \r\n+  &-info {\r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654182147552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .product-detail {\r\n   &-info {\r\n     display: flex;\r\n-    justify-content: center;\r\n-    align-items: center;\r\n+    justify-content: flex-start;\r\n+    align-items: centeflr;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654182174880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .product-detail {\r\n   &-info {\r\n     display: flex;\r\n     justify-content: flex-start;\r\n-    align-items: centeflr;\r\n+    align-items: flex-start;\r\n+    \r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654182183323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n   &-info {\r\n     display: flex;\r\n     justify-content: flex-start;\r\n     align-items: flex-start;\r\n-    \r\n+    -&.product-detail-info-order\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654182189287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     display: flex;\r\n     justify-content: flex-start;\r\n     align-items: flex-start;\r\n     &-order {\r\n-      \r\n+      fle\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654182212428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,8 @@\n     &-order {\r\n       flex: 1;\r\n     }\r\n     &-content {\r\n-      flex\r\n+      flex: 1;\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1653795073672,

@@ -1,0 +1,34 @@
+{
+    "sourceFile": "style/register.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1654224489884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654224497032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-.login {\r\n+.register {\r\n   // display: flex;\r\n   // justify-content: center;\r\n   // align-items: center;\r\n   &-container {\r\n"
+                },
+                {
+                    "date": 1654224548024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n           color: $primaryColor;\r\n         }\r\n       }\r\n     }\r\n-    &-register {\r\n+    &-login {\r\n       display: flex;\r\n       justify-content: flex-end;\r\n       align-items: center;\r\n       margin-bottom: 15px;\r\n"
+                },
+                {
+                    "date": 1654224767806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,17 +36,8 @@\n         display: block;\r\n         width: 30%;\r\n         font-size: 20px;\r\n       }\r\n-      a {\r\n-        font-size: 14px;\r\n-        display: block;\r\n-        text-align: right;\r\n-        &:hover {\r\n-          text-decoration: underline;\r\n-          color: $primaryColor;\r\n-        }\r\n-      }\r\n     }\r\n     &-login {\r\n       display: flex;\r\n       justify-content: flex-end;\r\n"
+                },
+                {
+                    "date": 1654224782084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n     }\r\n     &-button {\r\n       display: flex;\r\n       // flex-direction: column;\r\n-      justify-content: space-between;\r\n+      justify-content: center;\r\n       align-items: center;\r\n       margin-bottom: 15px;\r\n       button {\r\n         display: block;\r\n"
+                }
+            ],
+            "date": 1654224489884,
+            "name": "Commit-0",
+            "content": ".login {\r\n  // display: flex;\r\n  // justify-content: center;\r\n  // align-items: center;\r\n  &-container {\r\n    width: 400px;\r\n    margin: auto;\r\n    &-input {\r\n      width: 100%;\r\n      padding: 5px 10px;\r\n      display: inline-flex;\r\n      justify-content: center;\r\n      align-items: center;\r\n      border: 1px solid $textGray;\r\n      margin-bottom: 20px;\r\n      border-radius: 4px;\r\n      ion-icon {\r\n        font-size: 24px;\r\n        margin-right: 20px;\r\n      }\r\n      input {\r\n        padding: 12px 20px;\r\n        font-size: 14px;\r\n        border: none;\r\n        outline: none;\r\n        flex: 1;\r\n      }\r\n    }\r\n    &-button {\r\n      display: flex;\r\n      // flex-direction: column;\r\n      justify-content: space-between;\r\n      align-items: center;\r\n      margin-bottom: 15px;\r\n      button {\r\n        display: block;\r\n        width: 30%;\r\n        font-size: 20px;\r\n      }\r\n      a {\r\n        font-size: 14px;\r\n        display: block;\r\n        text-align: right;\r\n        &:hover {\r\n          text-decoration: underline;\r\n          color: $primaryColor;\r\n        }\r\n      }\r\n    }\r\n    &-register {\r\n      display: flex;\r\n      justify-content: flex-end;\r\n      align-items: center;\r\n      margin-bottom: 15px;\r\n      p {\r\n        font-size: 14px;\r\n      }\r\n      a {\r\n        margin-left: 10px;\r\n        font-size: 14px;\r\n        color: $primaryColor;\r\n        &:hover {\r\n          color: $secondaryColor;\r\n        }\r\n      }\r\n    }\r\n    &-other {\r\n      display: flex;\r\n      justify-content: flex-start;\r\n      align-items: center;\r\n      p {\r\n        font-size: 14px;\r\n      }\r\n      a {\r\n        margin-left: 20px;\r\n      }\r\n      ion-icon {\r\n        font-size: 24px;\r\n        background-color: $secondaryBackground;\r\n        padding: 10px;\r\n        border-radius: 50px;\r\n        cursor: pointer;\r\n      } \r\n      >a {\r\n        &:nth-of-type(1) {\r\n          ion-icon {\r\n            color: $facebookBackground;\r\n            &:hover {\r\n              background-color: $facebookBackground;\r\n              color: $textWhite;\r\n            }\r\n          }\r\n        }\r\n        &:nth-of-type(2) {\r\n          ion-icon {\r\n            color: $googleBackground;\r\n            &:hover {\r\n              background-color: $googleBackground;\r\n              color: $textWhite;\r\n            }\r\n          }\r\n        }\r\n        &:nth-of-type(3) {\r\n          ion-icon {\r\n            color: $twitterBackground;\r\n            &:hover {\r\n              background-color: $twitterBackground;\r\n              color: $textWhite;\r\n            }\r\n          }\r\n        }\r\n        &:nth-of-type(4) {\r\n          ion-icon {\r\n            color: $linkedinBackground;\r\n            &:hover {\r\n              background-color: $linkedinBackground;\r\n              color: $textWhite;\r\n            }\r\n          }\r\n        }\r\n      }\r\n    }\r\n  }\r\n}"
+        }
+    ]
+}

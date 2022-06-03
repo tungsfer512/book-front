@@ -1,0 +1,34 @@
+{
+    "sourceFile": "style/products.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1654178775146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654178781866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-.body-\n\\ No newline at end of file\n+.body {\r\n+  &-\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654178791449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .body {\r\n-  &-\r\n+  &-right {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654178814798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,83 @@\n .body {\r\n   &-right {\r\n-    \r\n+    \t\t&-container {\r\n+\t\t\t&-heading {\r\n+\t\t\t\tdisplay: block;\r\n+\t\t\t\tpadding: 0 100px 30px 0;\r\n+\t\t\t\tdisplay: flex;\r\n+\t\t\t\tjustify-content: flex-start;\r\n+\t\t\t\talign-items: flex-start;\r\n+\t\t\t\tflex-direction: column;\r\n+\t\t\t\tborder-bottom: 1px solid $textBlack;\r\n+\t\t\t\tmargin-bottom: 30px;\r\n+\t\t\t\tcolor: $textBlack;\r\n+\t\t\t\tspan:first-child {\r\n+\t\t\t\t\tfont-size: 16px;\r\n+\t\t\t\t}\r\n+\t\t\t\tspan:last-child {\r\n+\t\t\t\t\tfont-size: 30px;\r\n+\t\t\t\t\tfont-weight: 500;\r\n+\t\t\t\t}\r\n+\t\t\t}\r\n+\t\t}\r\n+\t\t.products {\r\n+\t\t\t&-heading {\r\n+\t\t\t\tdisplay: flex;\r\n+\t\t\t\tjustify-content: space-between;\r\n+\t\t\t\talign-items: center;\r\n+\t\t\t\tmargin-bottom: 20px;\r\n+\t\t\t\tspan {\r\n+\t\t\t\t\tfont-size: 13px;\r\n+\t\t\t\t\tposition: relative;\r\n+\t\t\t\t\tselect {\r\n+\t\t\t\t\t\tpadding: 8px 20px;\r\n+\t\t\t\t\t\tfont-size: 14px;\r\n+\t\t\t\t\t\tborder: 1px solid $textGray;\r\n+\t\t\t\t\t\tborder-radius: 4px;\r\n+\t\t\t\t\t\t&:focus {\r\n+\t\t\t\t\t\t\toutline: none;\r\n+\t\t\t\t\t\t}\r\n+\t\t\t\t\t\t-moz-appearance: none;\r\n+\t\t\t\t\t\t-webkit-appearance: none;\r\n+\t\t\t\t\t\tappearance: none;\r\n+\t\t\t\t\t\toption {\r\n+\t\t\t\t\t\t\tfont-size: 14px;\r\n+\t\t\t\t\t\t}\r\n+\t\t\t\t\t\tbackground-color: transparent;\r\n+\t\t\t\t\t}\r\n+\t\t\t\t\t&:last-child {\r\n+\t\t\t\t\t\t&::after {\r\n+\t\t\t\t\t\t\tcontent: '\\25bc';\r\n+\t\t\t\t\t\t\tposition: absolute;\r\n+\t\t\t\t\t\t\ttop: 0;\r\n+\t\t\t\t\t\t\tright: 0;\r\n+\t\t\t\t\t\t\twidth: 34px;\r\n+\t\t\t\t\t\t\theight: 34px;\r\n+\t\t\t\t\t\t\tbackground-color: transparent;\r\n+\t\t\t\t\t\t\tdisplay: flex;\r\n+\t\t\t\t\t\t\tjustify-content: center;\r\n+\t\t\t\t\t\t\talign-items: center;\r\n+\t\t\t\t\t\t\tfont-size: 15px;\r\n+\t\t\t\t\t\t\tz-index: -1;\r\n+\t\t\t\t\t\t\tcolor: $textGray;\r\n+\t\t\t\t\t\t}\r\n+\t\t\t\t\t\t&:hover {\r\n+\t\t\t\t\t\t\t&::after {\r\n+\t\t\t\t\t\t\t\tcolor: $textBlue;\r\n+\t\t\t\t\t\t\t}\r\n+\t\t\t\t\t\t}\r\n+\t\t\t\t\t}\r\n+\t\t\t\t}\r\n+\t\t\t}\r\n+\t\t\t&-list {\r\n+\t\t\t\tdisplay: flex;\r\n+\t\t\t\tjustify-content: center;\r\n+\t\t\t\talign-items: center;\r\n+\t\t\t\tflex-wrap: wrap;\r\n+\t\t\t\t.product-item {\r\n+\t\t\t\t\twidth: 25%;\r\n+\t\t\t\t}\r\n+\t\t\t}\r\n+\t\t}\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654178835998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .body {\r\n-  &-right {\r\n-    \t\t&-container {\r\n+\t&-right {\r\n+\t\t&-container {\r\n+      \r\n \t\t\t&-heading {\r\n \t\t\t\tdisplay: block;\r\n \t\t\t\tpadding: 0 100px 30px 0;\r\n \t\t\t\tdisplay: flex;\r\n@@ -78,6 +79,6 @@\n \t\t\t\t\twidth: 25%;\r\n \t\t\t\t}\r\n \t\t\t}\r\n \t\t}\r\n-  }\r\n-}\n\\ No newline at end of file\n+\t}\r\n+}\r\n"
+                }
+            ],
+            "date": 1654178775146,
+            "name": "Commit-0",
+            "content": ".body-"
+        }
+    ]
+}
