@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).load(function () {
   var headerTopCartTrigger = $('.header-top-list-cart.header-top-dropdown-trigger');
   var headerTopWishlistTrigger = $('.header-top-list-wishlist.header-top-dropdown-trigger');
   var headerTopCartDropdown = $('.header-top-list .header-top-list-cart-dropdown');
@@ -12,28 +12,28 @@ $(document).ready(function () {
   });
   var headerNavTopDropdown = $('.header-navbar-top-dropdown');
   var headerNavTopDropdownTrigger = $('.header-navbar-top-dropdown-trigger');
-  headerNavTopDropdownTrigger.click(function() {
+  headerNavTopDropdownTrigger.click(function () {
     headerNavTopDropdown.toggleClass('dropdown-active');
   });
   var headerNavFixedDropdown = $('.header-navbar-fixed-dropdown');
   var headerNavFixedDropdownTrigger = $('.header-navbar-fixed-dropdown-trigger');
-  headerNavFixedDropdownTrigger.click(function() {
+  headerNavFixedDropdownTrigger.click(function () {
     headerNavFixedDropdown.toggleClass('dropdown-active');
   });
   $(window).scroll(function () {
-    if(headerTopCartDropdown.hasClass('dropdown-active')) {
+    if (headerTopCartDropdown.hasClass('dropdown-active')) {
       headerTopCartDropdown.removeClass('dropdown-active');
     }
-    if(headerTopWishlistDropdown.hasClass('dropdown-active')) {
+    if (headerTopWishlistDropdown.hasClass('dropdown-active')) {
       headerTopWishlistDropdown.removeClass('dropdown-active');
     }
-    if(headerNavTopDropdown.hasClass('dropdown-active')) {
+    if (headerNavTopDropdown.hasClass('dropdown-active')) {
       headerNavTopDropdown.removeClass('dropdown-active');
     }
-    if(headerNavFixedDropdown.hasClass('dropdown-active')) {
+    if (headerNavFixedDropdown.hasClass('dropdown-active')) {
       headerNavFixedDropdown.removeClass('dropdown-active');
     }
-    if($(document).scrollTop() >= $('.header').height() - $('.header-navbar-top').height()) {
+    if ($(document).scrollTop() >= $('.header').height() - $('.header-navbar-top').height()) {
       $('.header-navbar-fixed').css({
         "position": "fixed",
         "display": "flex",
