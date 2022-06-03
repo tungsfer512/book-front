@@ -1141,14 +1141,14 @@ ol, ul {
   padding: 10px;
 }
 .statistic-item:nth-child(1) {
-  background: linear-gradient(0deg, rgba(73, 187, 207, 0.6980392157), rgba(73, 187, 207, 0.6980392157)), url("/assets/images/statistic1.jpg");
+  background: linear-gradient(0deg, rgba(73, 187, 207, 0.6980392157), rgba(73, 187, 207, 0.6980392157)), url("../../assets/images/statistic1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 20px;
 }
 .statistic-item:nth-child(2) {
-  background: linear-gradient(0deg, rgba(147, 100, 141, 0.6980392157), rgba(147, 100, 141, 0.6980392157)), url("/assets/images/statistic2.jpg");
+  background: linear-gradient(0deg, rgba(147, 100, 141, 0.6980392157), rgba(147, 100, 141, 0.6980392157)), url("../../assets/images/statistic2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1156,7 +1156,7 @@ ol, ul {
   margin-right: 10px;
 }
 .statistic-item:nth-child(3) {
-  background: linear-gradient(0deg, rgba(241, 103, 69, 0.6980392157), rgba(241, 103, 69, 0.6980392157)), url("/assets/images/statistic3.jpg");
+  background: linear-gradient(0deg, rgba(241, 103, 69, 0.6980392157), rgba(241, 103, 69, 0.6980392157)), url("../../assets/images/statistic3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
