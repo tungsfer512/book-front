@@ -114,7 +114,7 @@ table {
 					button {
 						margin: 0 10px;
 						ion-icon {
-							color:$textWhite;
+							color: $textWhite;
 						}
 						&:last-child {
 							float: right;
@@ -124,4 +124,62 @@ table {
 			}
 		}
 	}
+}
+
+@media screen and (max-width: 590px) {
+	.header {
+		&-top {
+			flex-direction: column;
+			&-searchbox{
+				&-contain {
+					margin: 0 10px 10px;
+				}
+				>a {
+					margin-right: 10px;
+				}
+			}
+		}
+		&-navbar {
+			&-top {
+				ul {
+					display: none !important;
+				}
+			}
+			&-fixed {
+				ul {
+					display: none !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.header {
+		&-navbar {
+			&-fixed {
+				&-right {
+					flex: 1;
+					&-search {
+						flex: 1;
+					}
+					&-searchbox-contain {
+						input {
+							flex: 1;
+							width: unset !important;
+						}
+					}
+				}
+				ul {
+					display: none !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1140px) {
+  .full-size-container {
+    width: 100%;
+  }
 }

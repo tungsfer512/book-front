@@ -1,0 +1,74 @@
+{
+    "sourceFile": "admin/style/css/products.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1654353259667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654353270830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,6 @@\n     td {\r\n       &:nth-child(6) {\r\n         display: none;\r\n       }\r\n-    }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353282882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,12 +4,10 @@\n   }\r\n }\r\n \r\n @media screen and (max-width: 590px) {\r\n-  table {\r\n-\r\n     th,\r\n-    td {\r\n+    td:nth-child(6) {\r\n       &:nth-child(6) {\r\n         display: none;\r\n       }\r\n   }\r\n"
+                },
+                {
+                    "date": 1654353290430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n   }\r\n }\r\n \r\n @media screen and (max-width: 590px) {\r\n-    th,\r\n+    th:nth-child(6),\r\n     td:nth-child(6) {\r\n-      &:nth-child(6) {\r\n+      & {\r\n         display: none;\r\n       }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353296226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,10 @@\n   }\r\n }\r\n \r\n @media screen and (max-width: 590px) {\r\n-    th:nth-child(6),\r\n-    td:nth-child(6) {\r\n-      & {\r\n-        display: none;\r\n-      }\r\n+\r\n+  th:nth-child(6),\r\n+  td:nth-child(6) {\r\n+    display: none;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353448904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,13 @@\n   th:nth-child(6),\r\n   td:nth-child(6) {\r\n     display: none;\r\n   }\r\n+}\r\n+\r\n+@media screen and (max-width: 590px) {\r\n+\r\n+  th:nth-child(6),\r\n+  td:nth-child(6) {\r\n+    display: none;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353459518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n     display: none;\r\n   }\r\n }\r\n \r\n-@media screen and (max-width: 590px) {\r\n+@media screen and (max-width: 460px) {\r\n \r\n-  th:nth-child(6),\r\n-  td:nth-child(6) {\r\n+  th:nth-child(2),\r\n+  td:nth-child(2) {\r\n     display: none;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353489916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,8 @@\n   th:nth-child(2),\r\n   td:nth-child(2) {\r\n     display: none;\r\n   }\r\n+  button {\r\n+    \r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353495536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,8 @@\n   td:nth-child(2) {\r\n     display: none;\r\n   }\r\n   button {\r\n+    padd\r\n     \r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353502629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,7 @@\n   td:nth-child(2) {\r\n     display: none;\r\n   }\r\n   button {\r\n-    padd\r\n-    \r\n+    padding: 0;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353517459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,7 @@\n   td:nth-child(2) {\r\n     display: none;\r\n   }\r\n   button {\r\n-    padding: 0;\r\n+    padding: 0 !important;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654353563243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n @media screen and (max-width: 1140px) {\r\n   .full-size-container {\r\n     width: 100%;\r\n   }\r\n+  th:nth-child(6),\r\n+  td:nth-child(6) {\r\n+    display: none;\r\n+  }\r\n }\r\n \r\n @media screen and (max-width: 590px) {\r\n \r\n"
+                },
+                {
+                    "date": 1654353575810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n @media screen and (max-width: 1140px) {\r\n   .full-size-container {\r\n     width: 100%;\r\n   }\r\n-  th:nth-child(6),\r\n-  td:nth-child(6) {\r\n+  th:last-child,\r\n+  td:last-child {\r\n     display: none;\r\n   }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1654353585717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     width: 100%;\r\n   }\r\n   th:last-child,\r\n   td:last-child {\r\n-    \r\n+    di\r\n   }\r\n }\r\n \r\n @media screen and (max-width: 590px) {\r\n"
+                },
+                {
+                    "date": 1654353660007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   th:last-child,\r\n   td:last-child {\r\n   }\r\n   button {\r\n-    float: left!important; ;\r\n+    float: left !important; ;\r\n   }\r\n }\r\n \r\n @media screen and (max-width: 590px) {\r\n"
+                }
+            ],
+            "date": 1654353259667,
+            "name": "Commit-0",
+            "content": "@media screen and (max-width: 1140px) {\r\n  .full-size-container {\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 590px) {\r\n  table {\r\n\r\n    th,\r\n    td {\r\n      &:nth-child(6) {\r\n        display: none;\r\n      }\r\n    }\r\n  }\r\n}"
+        }
+    ]
+}

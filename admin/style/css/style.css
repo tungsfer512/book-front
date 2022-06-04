@@ -191,6 +191,43 @@ table tbody tr td:nth-child(7) button:last-child {
   float: right;
 }
 
+@media screen and (max-width: 590px) {
+  .header-top {
+    flex-direction: column;
+  }
+  .header-top-searchbox-contain {
+    margin: 0 10px 10px;
+  }
+  .header-top-searchbox > a {
+    margin-right: 10px;
+  }
+  .header-navbar-top ul {
+    display: none !important;
+  }
+  .header-navbar-fixed ul {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .header-navbar-fixed-right {
+    flex: 1;
+  }
+  .header-navbar-fixed-right-search {
+    flex: 1;
+  }
+  .header-navbar-fixed-right-searchbox-contain input {
+    flex: 1;
+    width: unset !important;
+  }
+  .header-navbar-fixed ul {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .full-size-container {
+    width: 100%;
+  }
+}
 .breadcrumb {
   height: 300px;
   width: 100%;
