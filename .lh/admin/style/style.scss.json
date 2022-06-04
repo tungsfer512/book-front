@@ -1,0 +1,26 @@
+{
+    "sourceFile": "admin/style/style.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1654320579779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654320585629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n \r\n @import \"./reset\";\r\n @import \"./button\";\r\n \r\n+@import \"./_common\";\r\n @import \"./about_us\";\r\n-@import \"./author_detail\";\r\n @import \"./author\";\r\n @import \"./body\";\r\n @import \"./breadcrumb\";\r\n @import \"./cart\";\r\n"
+                },
+                {
+                    "date": 1654320606099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,20 +5,11 @@\n @import \"./reset\";\r\n @import \"./button\";\r\n \r\n @import \"./_common\";\r\n-@import \"./about_us\";\r\n-@import \"./author\";\r\n @import \"./body\";\r\n @import \"./breadcrumb\";\r\n @import \"./cart\";\r\n @import \"./contact\";\r\n @import \"./footer\";\r\n @import \"./header\";\r\n-@import \"./index\";\r\n-@import \"./login\";\r\n-@import \"./news\";\r\n-@import \"./product_detail\";\r\n-@import \"./product_item\";\r\n-@import \"./products\";\r\n-@import \"./register\";\r\n-@import \"./wishlist\";\r\n+\r\n"
+                }
+            ],
+            "date": 1654320579779,
+            "name": "Commit-0",
+            "content": "\r\n@import \"./_variables\";\r\n@import \"./_mixins\";\r\n\r\n@import \"./reset\";\r\n@import \"./button\";\r\n\r\n@import \"./about_us\";\r\n@import \"./author_detail\";\r\n@import \"./author\";\r\n@import \"./body\";\r\n@import \"./breadcrumb\";\r\n@import \"./cart\";\r\n@import \"./contact\";\r\n@import \"./footer\";\r\n@import \"./header\";\r\n@import \"./index\";\r\n@import \"./login\";\r\n@import \"./news\";\r\n@import \"./product_detail\";\r\n@import \"./product_item\";\r\n@import \"./products\";\r\n@import \"./register\";\r\n@import \"./wishlist\";\r\n"
+        }
+    ]
+}
