@@ -1,0 +1,22 @@
+{
+    "sourceFile": "news.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1654311530596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654311539797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,10 +31,10 @@\n   <body>\r\n     <header class=\"header\"></header>\r\n     <div class=\"breadcrumb\">\r\n       <div class=\"breadcrumb-content\">\r\n-        <h1>About us</h1>\r\n-        <span>Our Story</span>\r\n+        <h1>News</h1>\r\n+        <span>Home > news</span>\r\n       </div>\r\n     </div>\r\n     <div class=\"about\"></div>\r\n     <footer class=\"footer\"></footer>\r\n"
+                }
+            ],
+            "date": 1654311530596,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n  <head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Book Store</title>\r\n    <!-- GG Fonts Work Sans + Open Sans -->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link\r\n      href=\"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\"\r\n      rel=\"stylesheet\">\r\n    <!-- GG Icons -->\r\n    <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n    <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons+Outlined\" rel=\"stylesheet\">\r\n    <!-- IonIcons -->\r\n    <script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>\r\n    <script nomodule src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js\"></script>\r\n    <!-- Slick CSS -->\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\" />\r\n    <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-1.11.0.min.js\"></script>\r\n    <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"></script>\r\n    <script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>\r\n    <!-- Custom CSS -->\r\n    <link rel=\"stylesheet\" href=\"style/css/scroller.css\">\r\n    <link rel=\"stylesheet\" href=\"style/css/style.css\">\r\n  </head>\r\n\r\n  <body>\r\n    <header class=\"header\"></header>\r\n    <div class=\"breadcrumb\">\r\n      <div class=\"breadcrumb-content\">\r\n        <h1>About us</h1>\r\n        <span>Our Story</span>\r\n      </div>\r\n    </div>\r\n    <div class=\"about\"></div>\r\n    <footer class=\"footer\"></footer>\r\n    <a href=\"#\" class=\"go-to-top\">\r\n      <ion-icon name=\"arrow-up-outline\"></ion-icon>\r\n    </a>\r\n  </body>\r\n\r\n</html>\r\n<script>\r\n  $(\".header\").load(\"header.html\");\r\n  $(\".footer\").load(\"footer.html\");\r\n</script>\r\n<script src=\"js/header.js\"></script>"
+        }
+    ]
+}

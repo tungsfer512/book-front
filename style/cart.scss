@@ -19,7 +19,6 @@
 					&:nth-child(even) {
 						background-color: $secondaryBackground;
 					}
-					// display: block;
 				}
 				th,
 				td {
@@ -139,6 +138,11 @@
             font-weight: 600;
           }
         }
+				&-button {
+					a {
+						display: block;
+					}
+				}
 			}
 		}
 	}
