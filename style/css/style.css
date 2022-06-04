@@ -129,6 +129,122 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+@media screen and (max-width: 830px) {
+  .header-top {
+    flex-direction: column;
+  }
+  .header-top-list {
+    margin-top: 20px;
+  }
+  .header-top-list-cart-dropdown {
+    right: -40px !important;
+  }
+  .header-top-list-wishlist-dropdown {
+    right: unset !important;
+    left: -40px !important;
+  }
+  .header-top-searchbox-contain {
+    margin: 0 10px 10px;
+  }
+  .header-top-searchbox > a {
+    margin-right: 10px;
+  }
+  .header-navbar-top {
+    justify-content: flex-end !important;
+    height: 60px;
+  }
+  .header-navbar-top ul {
+    display: none !important;
+  }
+  .header-navbar-fixed ul {
+    display: none !important;
+  }
+  .header-navbar-fixed-right-wishlist-dropdown {
+    left: unset !important;
+    right: -40px !important;
+  }
+
+  .footer-2, .footer-3 {
+    flex-direction: column;
+  }
+  .footer-2-container, .footer-3-container {
+    flex-direction: column;
+  }
+  .footer-1-item {
+    padding: 10px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .header-navbar-fixed-right {
+    flex: 1;
+  }
+  .header-navbar-fixed-right-search {
+    flex: 1;
+  }
+  .header-navbar-fixed-right-searchbox-contain input {
+    flex: 1;
+    width: unset !important;
+  }
+  .header-navbar-fixed ul {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .header-navbar-fixed-right {
+    flex: 1;
+  }
+  .header-navbar-fixed-right-search {
+    flex: 1;
+  }
+  .header-navbar-fixed-right-searchbox-contain input {
+    flex: 1;
+    width: unset !important;
+  }
+  .header-navbar-fixed ul {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 470px) {
+  .header-navbar-fixed-right-wishlist, .header-navbar-fixed-right-cart {
+    display: none;
+  }
+  .header-navbar-user-dropdown-item-hidden {
+    display: block !important;
+  }
+
+  .footer-1, .footer-2, .footer-3 {
+    flex-direction: column;
+  }
+  .footer-1-container, .footer-2-container, .footer-3-container {
+    flex-direction: column;
+  }
+  .footer-1-item {
+    flex-direction: row;
+  }
+  .footer-1-item {
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .full-size-container {
+    width: 100%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-container-map {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .contact-container-map-contain {
+    width: 100%;
+  }
+  .contact-container-map-contain iframe {
+    width: 100%;
+  }
+}
 .body {
   display: flex;
   justify-content: flex-start;

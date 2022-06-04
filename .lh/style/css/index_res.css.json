@@ -1,0 +1,94 @@
+{
+    "sourceFile": "style/css/index_res.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1654359997889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654360006903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,5 @@\n-@media screen and (max-width: 830px) {\n\\ No newline at end of file\n+@media screen and (max-width: 830px) {\r\n+  .collection {\r\n+    \r\n+  }\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360012806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n @media screen and (max-width: 830px) {\r\n   .collection {\r\n-    \r\n+    &-container {\r\n+      \r\n+    }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360027901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n @media screen and (max-width: 830px) {\r\n   .collection {\r\n     &-container {\r\n-      \r\n+      &-item {\r\n+        padding: 10px;\r\n+          flex-direction: column;\r\n+      }\r\n     }\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360041292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n @media screen and (max-width: 830px) {\r\n-  .collection {\r\n-    &-container {\r\n+  .collection-container {\r\n       &-item {\r\n         padding: 10px;\r\n           flex-direction: column;\r\n       }\r\n"
+                },
+                {
+                    "date": 1654360046699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n @media screen and (max-width: 830px) {\r\n-  .collection-container {\r\n-      &-item {\r\n+  .collection-container-item {\r\n         padding: 10px;\r\n           flex-direction: column;\r\n       }\r\n     }\r\n"
+                },
+                {
+                    "date": 1654360053960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,5 @@\n   .collection-container-item {\r\n         padding: 10px;\r\n           flex-direction: column;\r\n       }\r\n-    }\r\n-  }\r\n-}\n\\ No newline at end of file\n+    }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360085034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n @media screen and (max-width: 830px) {\r\n   .collection-container-item {\r\n-        padding: 10px;\r\n-          flex-direction: column;\r\n-      }\r\n-    }\n\\ No newline at end of file\n+    padding: 10px;\r\n+    flex-direction: column;\r\n+  }\r\n+}\r\n+@media screen and (max-width: 470px) {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360090392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,10 @@\n     padding: 10px;\r\n     flex-direction: column;\r\n   }\r\n }\r\n-@media screen and (max-width: 470px) {}\n\\ No newline at end of file\n+@media screen and (max-width: 470px) {\r\n+  .collection-container-item {\r\n+    padding: 10px;\r\n+    flex-direction: column;\r\n+  }\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360097001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n }\r\n @media screen and (max-width: 470px) {\r\n   .collection-container-item {\r\n     padding: 10px;\r\n-    flex-direction: column;\r\n+    flex-direction: row;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360102898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     flex-direction: column;\r\n   }\r\n }\r\n @media screen and (max-width: 470px) {\r\n+  \r\n   .collection-container-item {\r\n     padding: 10px;\r\n     flex-direction: row;\r\n   }\r\n"
+                },
+                {
+                    "date": 1654360109106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,11 @@\n     flex-direction: column;\r\n   }\r\n }\r\n @media screen and (max-width: 470px) {\r\n+  .collection-container-item {\r\n   \r\n-  .collection-container-item {\r\n+    .collection-container-item {\r\n     padding: 10px;\r\n     flex-direction: row;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360115631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,13 @@\n     padding: 10px;\r\n     flex-direction: column;\r\n   }\r\n }\r\n+\r\n @media screen and (max-width: 470px) {\r\n+  .collection-container-item {}\r\n+\r\n   .collection-container-item {\r\n-  \r\n-    .collection-container-item {\r\n     padding: 10px;\r\n     flex-direction: row;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360121736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,12 @@\n   }\r\n }\r\n \r\n @media screen and (max-width: 470px) {\r\n-  .collection-container-item {}\r\n+  .collection-container {\r\n \r\n+  }\r\n+\r\n   .collection-container-item {\r\n     padding: 10px;\r\n     flex-direction: row;\r\n   }\r\n"
+                },
+                {
+                    "date": 1654360375283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,16 @@\n }\r\n \r\n @media screen and (max-width: 470px) {\r\n   .collection-container {\r\n-\r\n+    flex-direction: column;\r\n   }\r\n \r\n   .collection-container-item {\r\n     padding: 10px;\r\n     flex-direction: row;\r\n   }\r\n+}\r\n+\r\n+@media screen and (max-width: 470px) {\r\n+  \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360381552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,7 +15,7 @@\n     flex-direction: row;\r\n   }\r\n }\r\n \r\n-@media screen and (max-width: 470px) {\r\n-  \r\n+@media screen and (max-width: 1010px) {\r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360402709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,6 @@\n   }\r\n }\r\n \r\n @media screen and (max-width: 1010px) {\r\n-\r\n+  .feature-container-content-title\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360408696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,8 @@\n   }\r\n }\r\n \r\n @media screen and (max-width: 1010px) {\r\n-  .feature-container-content-title\r\n+  .feature-container-content-title a {\r\n+    font-size: ;\r\n+  }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360473537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,6 +19,6 @@\n @media screen and (max-width: 1010px) {\r\n   .feature-container-content-title a {\r\n     font-size: 22px;\r\n   }\r\n-    feature-container-action-button\r\n+  feature-container-action-button\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654360488822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,7 @@\n   .feature-container-content-title a {\r\n     font-size: 22px;\r\n   }\r\n   .feature-container-action-button a ion-icon {\r\n-    font\r\n+    font-size: ;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1654359997889,
+            "name": "Commit-0",
+            "content": "@media screen and (max-width: 830px) {"
+        }
+    ]
+}

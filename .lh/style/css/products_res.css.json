@@ -1,0 +1,46 @@
+{
+    "sourceFile": "style/css/products_res.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1654361516776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1654361524187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-.\n\\ No newline at end of file\n+..body-right .products-list .product-item\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654361529830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-..body-right .products-list .product-item\n\\ No newline at end of file\n+@medi\r\n+.body-right .products-list .product-item\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654361535053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n-@medi\r\n+@media screen {\r\n+  \r\n+}\r\n .body-right .products-list .product-item\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654361541965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n-@media screen {\r\n+@media screen and (max-width: 1050px) {\r\n+  .slider-container-item-content-heading h1 {\r\n+    font-size: 40px;\r\n+  }\r\n+}\r\n   \r\n }\r\n .body-right .products-list .product-item\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654361550907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,5 @@\n   .slider-container-item-content-heading h1 {\r\n     font-size: 40px;\r\n   }\r\n }\r\n-  \r\n-}\r\n-.body-right .products-list .product-item\n\\ No newline at end of file\n+\r\n"
+                },
+                {
+                    "date": 1654361556544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n @media screen and (max-width: 1050px) {\r\n   .body-right .products-list .product-item {\r\n-    w\r\n+    width: ;\r\n   }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1654361606353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n   }\r\n }\r\n \r\n @media screen and (max-width: 750px) {\r\n-  .bo\r\n+  .body\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1654361516776,
+            "name": "Commit-0",
+            "content": "."
+        }
+    ]
+}
