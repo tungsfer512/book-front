@@ -24,6 +24,9 @@ $(window).load(function () {
     if (headerTopCartDropdown.hasClass('dropdown-active')) {
       headerTopCartDropdown.removeClass('dropdown-active');
     }
+    if ($('.header-navbar-fixed-right-user-dropdown').hasClass('dropdown-active')) {
+      $('.header-navbar-fixed-right-user-dropdown').removeClass('dropdown-active');
+    }
     if (headerTopWishlistDropdown.hasClass('dropdown-active')) {
       headerTopWishlistDropdown.removeClass('dropdown-active');
     }
